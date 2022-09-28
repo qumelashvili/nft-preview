@@ -1,0 +1,120 @@
+*{
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color: #0D192C;
+    padding-top: 151px;
+}
+.nft-card{
+    width: 350px;
+    height: 596px;
+    background-color: #15263F;
+    margin: auto;
+    border-radius: 15px;
+    padding: 24px;
+    box-sizing: border-box;
+}
+.nft-card .main-img{
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+}
+.nft-card h3{
+    font-size: 22px;
+    color: white;
+    line-height: 22px;
+    cursor: pointer;
+}
+.nft-card p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #8BACD9;
+    line-height: 26px;
+}
+.price{
+    display: flex;
+    align-items: center;
+}
+.price img{
+    width: 11px;
+    height: 16px;
+}
+.price p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #00FFF8;
+    margin-left: 8px;
+}
+.upload-date img{
+    width: 16px;
+    height: 16px;
+}
+.upload-date{
+    display: flex;
+    align-items: center;
+}
+.upload-date p{
+    margin-left: 8px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #2E405A;
+}
+.creation{
+    display: flex;
+    align-items: center;
+}
+.creation img{
+    width: 33px;
+    height: 33px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.creation p{
+    margin-left: 16px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.view{
+    display: flex;
+    background: url("./images/image-equilibrium.jpg");
+    width:100%;
+    height: 302px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.view-effect{
+    position: absolute;
+    width: 302px;
+    height: 302px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    border-radius: 8px;
+}
+
+.view:hover .view-effect{
+    opacity: 1;
+    background-color: rgb(0, 255, 248, 0.5);
+    transition: 0.5s;
+}
+
+#header:hover{
+    color: #00FFF8;
+}
+
+a:hover{
+    color: #00FFF8;
+}
+
+
